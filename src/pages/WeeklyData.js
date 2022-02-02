@@ -71,11 +71,12 @@ class WeeklyData extends Component {
 			],
 		};
 		return (
-			<div>
+			<div className="Chart">
 				<ReactEcharts
 					style={{
 						height: "300px",
 						width: "80%",
+						margin: "auto",
 					}}
 					option={data}
 				/>
